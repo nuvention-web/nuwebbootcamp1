@@ -26,4 +26,4 @@ and closing it in the last line of the file
 You should now be able to re run the application and see the use of the Google Roboto font instead of the browser default font for the angular startup page.  Do that by running:
 `ng serve`
 
-We recommend keeping this running in a seperate command shell so you get 'live reload' as you develop
+We recommend keeping this running in a seperate command shell so you get 'live reload' as you develop.
