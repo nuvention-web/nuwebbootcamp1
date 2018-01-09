@@ -43,13 +43,15 @@ Instructions to follow along for each step are in seperate files linked here:
 - Identifying components in an Angular Module
 - Selecting an Angular Material theme and Using Angular Material components in an Angular Application
 
-## Step 1 to 2: create two way binding on an edit field
+## Step 1 to 2: create two way binding on an edit field [Go to Step](step-1-to-2.md)
 - The structure of basic Angular Components
 - Understanding binding Angular templates to Angular component properties, including simple and two way binding 
 - Binding events to component methods
 - Specific use of the Angular Material text input field and button
+## Step 2 to 3: ngFor and a component specific style [Go to Step](step-2-to-3.md)
 - Structural directive ngFor
-## Step 3 to 4:  refactor and create a stylish github user list component with favorites
+- component specific styles
+## Step 3 to 4:  refactor and create a stylish github user list component with [Go to Step](step-3-to-4.md)favorites
 - Specific use of the Angular Material icons
 - Creating Angular components with the angular cli, and consuming and passing data to child components using @Input 
 - Simple Typescript Interfaces 
