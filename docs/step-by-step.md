@@ -51,7 +51,7 @@ Instructions to follow along for each step are in seperate files linked here:
 ## Step 2 to 3: ngFor and a component specific style [Go to Step](step-2-to-3.md)
 - Structural directive ngFor
 - component specific styles
-## Step 3 to 4:  refactor and create a stylish github user list component with [Go to Step](step-3-to-4.md)favorites
+## Step 3 to 4:  refactor and create a stylish github user list component with favorites [Go to Step](step-3-to-4.md)
 - Specific use of the Angular Material icons
 - Creating Angular components with the angular cli, and consuming and passing data to child components using @Input 
 - Simple Typescript Interfaces 
