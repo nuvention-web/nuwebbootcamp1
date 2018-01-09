@@ -11,11 +11,6 @@ export class IdListComponent implements OnInit {
   @Input() idlist: GitIdInfo[];
   constructor() { }
 
-  addGhId(toadd: string) {
-      this.ghIds.push({login: toadd, favorite: false});
-      this.ghId = '';
-  }
-
   toggleFavorite(favid: GitIdInfo) {
     favid.favorite = !favid.favorite;
   }

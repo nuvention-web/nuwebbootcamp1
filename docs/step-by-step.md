@@ -56,7 +56,7 @@ Instructions to follow along for each step are in seperate files linked here:
 - Creating Angular components with the angular cli, and consuming and passing data to child components using @Input 
 - Simple Typescript Interfaces 
 
-## 4 to 5 Add a Github ID info service
+## 4 to 5 Add a Github ID info service [Go to Step](step-4-to-5.md)
 - Simple Typescript Interfaces 
 - Angular Services and using dependency Injection 
 
