@@ -37,7 +37,7 @@ This Workshop is divided into 6 Steps.  You can move to the completed step by ru
 npm run workshop
 ````
 Instructions to follow along for each step are in seperate files linked here:
-## Step 0 to 1: Installing Angular Material Library
+## Step 0 to 1: Installing Angular Material Library [Go to Step](step-0-to-1.md)
 - Using the node package manager (npm) to install the Angular Material Library
 - Using the Angular CLI to build and run an Angular app
 - Identifying components in an Angular Module
