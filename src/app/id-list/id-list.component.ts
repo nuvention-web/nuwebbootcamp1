@@ -1,5 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { GitIdInfo } from '../github-id';
+
 @Component({
   selector: 'app-id-list',
   templateUrl: './id-list.component.html',

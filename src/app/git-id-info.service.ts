@@ -1,14 +1,17 @@
 import { Injectable } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
 import { GitIdInfo } from './github-id';
+import { Observable } from 'rxjs/Observable';
+
+const githubAPI = 'https://api.github.com/';
 
 @Injectable()
 export class GitIdInfoService {
-  constructor() { }
-  GetGitIdInfo(login: string): GitIdInfo {
-    return({
-      login: login,
-      bio: login + ' biography information',
-      avatar_url: '/assets/images/User_Avatar.png'
-    });
+
+  constructor(private http: HttpClient) { }
+
+  GetGitIdInfo(login: string): Observable<GitIdInfo> {
+    const userAPI = githubAPI + 'users/';
+    return(this.http.get<GitIdInfo>(userAPI + login));
   }
 }
