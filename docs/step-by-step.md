@@ -60,7 +60,7 @@ Instructions to follow along for each step are in seperate files linked here:
 - Simple Typescript Interfaces 
 - Angular Services and using dependency Injection 
 
-## Step 5 to 6 Using HttpClient to call the Github REST API
+## Step 5 to 6 Using HttpClient to call the Github REST API [Go To Step](step-5-to-6.md)
 - Using the Angular HttpClient to consume the un-authenticated Github API 
 - Using rxjs Observables and using simple subscriptions in typescript, including using typescript generic type support 
 
