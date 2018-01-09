@@ -18,7 +18,7 @@ This tutorial covers the following Angular and Material Concepts:
 - Using the Angular HttpClient to consume the un-authenticated Github API
 - Using rxjs Observables and using simple subscriptions in typescript, including using typescript generic type support
 
-If you want a specific concept, please see the [Step by Step](step-by-step.md) to reference which concepts are covered where.
+If you want a specific concept, please see the [Step by Step](docs/step-by-step.md) to reference which concepts are covered where.
 
 ## Tutorial Functionality
 The end user functionality implemented by the app is this high level user story:
