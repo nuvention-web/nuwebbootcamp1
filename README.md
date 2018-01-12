@@ -1,6 +1,8 @@
 # NUWebBoot-1
 This web tutorial walks a user through creating a simple single page web application that demonstrates a 'slice' of the functionality in Angular 5. 
 
+It also includes a script and some magic github tags to [reset to a particular step](#go-step-by-step) in the sequence.
+
 ## Concepts Covered
 This tutorial covers the following Angular and Material Concepts:
 - Using the node package manager (npm) to install the Angular Material Library 
@@ -17,6 +19,8 @@ This tutorial covers the following Angular and Material Concepts:
 - Angular Services and using dependency Injection
 - Using the Angular HttpClient to consume the un-authenticated Github API
 - Using rxjs Observables and using simple subscriptions in typescript, including using typescript generic type support
+
+## Go Step by Step
 
 If you want a specific concept, please see the [Step by Step](docs/step-by-step.md) to reference which concepts are covered where.
 

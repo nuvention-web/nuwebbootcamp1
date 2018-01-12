@@ -1,5 +1,5 @@
 # Setting up the tutorial
-The tutorial requires node.js, npm, the angular cli, and git.   See the [Readme](readme.md) for more information on installing and verifying these components.
+The tutorial requires node.js, npm, the angular cli, and git.   See the [Readme](readme.md) for more information on installing and verifgitgitying these components.
 ## Using the command shell
 Unless otherwise specified, a command shell command should be executed in the directory where you git cloned the project.   Usually this will be in Documents\GitHub\n
 # Switching Steps with npm run workshop
