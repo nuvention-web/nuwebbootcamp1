@@ -1,4 +1,12 @@
 # 4 to 5 Add a Github ID Info Service
+## Errata:  if you use `npm run workshop` to switch to step 4, you will get an error on ng serve.  The error will be:
+````
+ERROR in src/app/id-list/id-list.component.ts(16,12): error TS2551: Property 'ghId' does not exist on type 'IdListComponent'
+````
+Open `id-list.component.ts` and delete line 16 and the applicaiton will work just fine.
+
+## Implementing the next story
+
 Our next story is:
 > As a user, in the list of Github ID's, I see additional information like a description and their avatar
 

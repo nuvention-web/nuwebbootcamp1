@@ -1,17 +1,20 @@
 # Setting up the tutorial
 The tutorial requires node.js, npm, the angular cli, and git.   See the [Readme](readme.md) for more information on installing and verifying these components.
-
+## Using the command shell
+Unless otherwise specified, a command shell command should be executed in the directory where you git cloned the project.   Usually this will be in Documents\GitHub\n
 # Switching Steps with npm run workshop
 You can switch to a completed step at anytime to see the answer and to get a completed repository by using the following npm command:
 ````
 npm run workshop
 ````
 
+To work through the tutorial, run the workshop script as above and select step 0.
+
 this will present a list of the steps. Note: choosing a step wipes out any local work on the repository.
 Steps are implemented using [git tags](https://git-scm.com/book/en/v2/Git-Basics-Tagging).
 
 # Recommended setup
-I recommend you open your each step at the begining with a good programmer's editor like [VS Code](https://code.visualstudio.com/).  Also start a command shell and keep the build running and automatically reloading on `http://localhost:4200` by typing the following at the command line:
+I recommend you open each step at the begining with a good programmer's editor like [VS Code](https://code.visualstudio.com/).  Also start a command shell and keep the build running and automatically reloading on `http://localhost:4200` by typing the following at the command line:
 ````
 ng serve
 ````
@@ -59,6 +62,9 @@ Instructions to follow along for each step are in seperate files linked here:
 ## 4 to 5 Add a Github ID info service [Go to Step](step-4-to-5.md)
 - Simple Typescript Interfaces 
 - Angular Services and using dependency Injection 
+
+>Note there is a small syntax error when the project is currently reset to step-4 using the workshop.  Delete the line with the error and it will work fine.
+
 
 ## Step 5 to 6 Using HttpClient to call the Github REST API [Go To Step](step-5-to-6.md)
 - Using the Angular HttpClient to consume the un-authenticated Github API 
