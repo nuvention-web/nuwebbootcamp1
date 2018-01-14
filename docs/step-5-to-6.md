@@ -66,7 +66,7 @@ import { HttpClient } from '@angular/common/http';
 import { GitIdInfo, GithubId } from './github-id';
 import { Observable } from 'rxjs/Observable';
 
-const githubAPI = 'https://api.github.com';
+const githubAPI = 'https://api.github.com/';
 
 @Injectable()
 export class GitIdInfoService {
